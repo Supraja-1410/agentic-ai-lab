@@ -1,0 +1,16 @@
+INPUT: calculate 10+5
+TOOL: calculator
+OUTPUT: 15
+----------------------------------------
+INPUT: weather in kurnool
+TOOL: weather
+OUTPUT: Weather in weather in kurnool is sunny (mock data)
+----------------------------------------
+INPUT: exit
+TOOL: unknown
+OUTPUT: I don't understand
+----------------------------------------
+INPUT: calculate 2-8
+TOOL: calculator
+OUTPUT: -6
+----------------------------------------
