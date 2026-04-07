@@ -1,0 +1,32 @@
+INPUT: Find average of 5, 10, 15 and summarize
+STEPS: ['extract_numbers', 'calculate_average', 'summarize']
+OUTPUT:
+Extracted numbers: [5, 10, 15]
+Calculated average: 10.0
+Summary: The average is 10.0, which represents the central value.
+----------------------------------------
+INPUT: Find average of 2, 4, 6
+STEPS: ['extract_numbers', 'calculate_average']
+OUTPUT:
+Extracted numbers: [2, 4, 6]
+Calculated average: 4.0
+----------------------------------------
+INPUT: Summarize the result
+STEPS: ['summarize']
+OUTPUT:
+Summary: The average is None, which represents the central value.
+----------------------------------------
+INPUT: Find sum of 2,3,4,5,6
+STEPS: ['extract_numbers', 'sum']
+OUTPUT:
+[Step 1] Extracted numbers: [2, 3, 4, 5, 6]
+[Step 2] Calculated sum: 20
+----------------------------------------
+INPUT: Find max of 2,3,4,5,6 and summarize it
+STEPS: ['extract_numbers', 'sum', 'max', 'summarize']
+OUTPUT:
+[Step 1] Extracted numbers: [2, 3, 4, 5, 6]
+[Step 2] Calculated sum: 20
+[Step 4] Maximum value: 6
+[Step 6] Summary: The result is 6, which represents the computed value.
+----------------------------------------
